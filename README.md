@@ -8,6 +8,7 @@ commitしたいファイルをステージングエリアに追加する。
 
 ## 03.git commit -a
 git add と git commit を同時にやってくれる。
+なお、-a は、commit の後に指定する必要がある。 git と commit の間に指定した場合、構文エラーとなる。
 
 ## 04.git commit --amend
 マスターブランチを作る

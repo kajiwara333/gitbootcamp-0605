@@ -8,17 +8,20 @@ commitしたいファイルをステージングエリアに追加する
 ## 02.git commit
 ローカルリポジトリに最新のリビジョンを追加する。
 
-## 03
+## 03.git commit -a
 git add と git commit を同時にやってくれる。
 
-## 04
+## 04.git commit --amend
 
-## 05
+## 05.git branch fix/42
 
-## 06.git checkout -b fix/42:git commit
+## 06.git checkout -b fix/24; git commit
 fix/42のブランチを作成し、チェックアウト。
 fix/42に対してコミットを行い、リビジョンを追加する。
 
+## 07.git checkout -b fix/42
+
+## 08.git reset --hard master
 
 ## 12.git checkout fix/42
 ブランチをfix/42に移動する

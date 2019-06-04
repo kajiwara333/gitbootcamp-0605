@@ -65,14 +65,14 @@ git merge をした後、必ずマージコミットを作成する。
 リモートリポジトリの変更をローカルリポジトリに反映する。  
 この際、マージが必要な場合（fast forwardできない場合）、マージコミットが作成される。
 
-## 20.git push
-プッシュ
-
 ## 19.git pull --rebase
 remoteブランチをfetchした結果をrebaseする。
 つまり、git fetch; git rebase と同じ。
 マージコミットが発生しないので、コミットグラフがすっきりするメリットがある。
 ちなみに、git pull は、git fetch; git merge と同じ。（詳細は、No.18参照）
+
+## 20.git push
+プッシュ
 
 ## 21.git cherry pick 2
 2番目のノードだけを拾ってきてマージする

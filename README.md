@@ -23,3 +23,5 @@ fix/42に対してコミットを行い、リビジョンを追加する。
 
 ## 08.git reset --hard master
 
+## 12.git checkout fix/42
+ブランチをfix/42に移動する

@@ -12,6 +12,7 @@ commitしたいファイルをステージングエリアに追加する
 git add と git commit を同時にやってくれる。
 
 ## 04.git commit --amend
+マスターブランチを作る
 
 ## 05.git branch fix/42
 fix/42という名前のブランチを作成する

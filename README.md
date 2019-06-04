@@ -45,3 +45,6 @@ A~Eまでを対象に編集操作を行う。
 
 ## 17.git remote add, git fetch --all
 リモートリポジトリを登録してフェッチする
+
+## 21.git cherry pick 2
+2番目のノードだけを拾ってきてマージする

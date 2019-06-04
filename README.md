@@ -1,8 +1,6 @@
 # gitbootcamp-0605
 
 ## 01.git add
-
-
 commitしたいファイルをステージングエリアに追加する
 
 ## 02.git commit
@@ -22,11 +20,15 @@ fix/42のブランチを作成し、チェックアウト。
 fix/42に対してコミットを行い、リビジョンを追加する。
 
 ## 07.git checkout -b fix/42
-存在しないブランチ fix/42 を作成すると同時に、ブランチを fix/42 に移動する。
+存在しないブランチ fix/42 を作成すると同時に、ブランチを fix/42 に移動する。リビジョンは作成されない。
+つまり、 git branch fix/42; git checkout fix/42 と同じ。
 ブランチを移動するとは、HEADの位置を移動するということ。
 
 ## 08.git reset --hard master
 リセットして自分にHEADを持ってくる
+
+## 09.git merge fix/42
+現在の作業ブランチとfix/42をマージする
 
 ## 10.git rebase -i A~E
 A~Eまでを対象に編集操作を行う。  
@@ -41,3 +43,6 @@ A~Eまでを対象に編集操作を行う。
 ## 13.git rebase master
 分岐しているリビジョンを一直線にする
 見やすさ考慮のため適切に行った方がよい
+
+## 17.git remote add, git fetch --all
+リモートリポジトリを登録してフェッチする

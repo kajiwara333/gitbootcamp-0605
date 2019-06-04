@@ -49,6 +49,12 @@ masterとfix/42が一本のコミット上にある場合に、masterをHEADと�
 単純にmasterをfix/42に進める。  (ff = fast forward)
 masterとfix/42が枝分かれしている状態の場合、エラーが発生する。
 
+## 15.git merge --no-ff fix/42
+git merge をした後、必ずマージコミットを作成する。
+おそらく、git mergeのデフォルトの動作では、fast forwardできる場合には、マージコミットは作成されない。
+ほとんどの場合ではマージコミットを作成する必要はないかもしれないが、
+なんらかの理由で必ずマージコミットを作成したい場合に、--no-ffを指定する。
+
 ## 16.git fetch all
 全てフェッチする
 

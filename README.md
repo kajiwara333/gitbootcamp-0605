@@ -55,7 +55,15 @@ masterとfix/42が枝分かれしている状態の場合、エラーが発生�
 ## 17.git remote add, git fetch --all
 リモートリポジトリを登録してフェッチする
 
+
 ## 20.git push
+プッシュ
+
+## 19.git pull --rebase
+remoteブランチをfetchした結果をrebaseする。
+つまり、git fetch; git rebase と同じ。
+マージコミットが発生しないので、コミットグラフがすっきりするメリットがある。
+ちなみに、git pull は、git fetch; git merge と同じ。（詳細は、No.18参照）
 
 ## 21.git cherry pick 2
 2番目のノードだけを拾ってきてマージする

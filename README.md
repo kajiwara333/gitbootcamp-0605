@@ -13,7 +13,7 @@ git add と git commit を同時にやってくれる。
 マスターブランチを作る
 
 ## 05.git branch fix/42
-fix/42という名前のブランチを作成する
+fix/42という名前のブランチを作成する。
 
 ## 06.git checkout -b fix/24; git commit
 fix/42のブランチを作成し、チェックアウト。

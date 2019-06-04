@@ -44,5 +44,13 @@ A~Eまでを対象に編集操作を行う。
 分岐しているリビジョンを一直線にする
 見やすさ考慮のため適切に行った方がよい
 
+## 14.git merge --ff-only fix/42
+masterとfix/42が一本のコミット上にある場合に、masterをHEADとして実行する。  
+単純にmasterをfix/42に進める。  (ff = fast forward)
+masterとfix/42が枝分かれしている状態の場合、エラーが発生する。
+
 ## 17.git remote add, git fetch --all
 リモートリポジトリを登録してフェッチする
+
+## 21.git cherry pick 2
+2番目のノードだけを拾ってきてマージする

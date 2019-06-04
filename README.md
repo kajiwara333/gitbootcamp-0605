@@ -49,8 +49,13 @@ masterとfix/42が一本のコミット上にある場合に、masterをHEADと�
 単純にmasterをfix/42に進める。  (ff = fast forward)
 masterとfix/42が枝分かれしている状態の場合、エラーが発生する。
 
+## 16.git fetch all
+全てフェッチする
+
 ## 17.git remote add, git fetch --all
 リモートリポジトリを登録してフェッチする
+
+## 20.git push
 
 ## 21.git cherry pick 2
 2番目のノードだけを拾ってきてマージする

@@ -18,3 +18,7 @@ git add と git commit を同時にやってくれる。
 ## 06.git checkout -b fix/42:git commit
 fix/42のブランチを作成し、チェックアウト。
 fix/42に対してコミットを行い、リビジョンを追加する。
+
+
+## 12.git checkout fix/42
+ブランチをfix/42に移動する
